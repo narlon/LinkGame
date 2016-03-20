@@ -1,0 +1,189 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AC19A654-FD99-437E-957C-5D648F0CD59C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PicResource</RootNamespace>
+    <AssemblyName>PicResource</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="War3a\1.JPG" />
+    <EmbeddedResource Include="War3a\10.JPG" />
+    <EmbeddedResource Include="War3a\11.JPG" />
+    <EmbeddedResource Include="War3a\12.JPG" />
+    <EmbeddedResource Include="War3a\2.JPG" />
+    <EmbeddedResource Include="War3a\3.JPG" />
+    <EmbeddedResource Include="War3a\4.JPG" />
+    <EmbeddedResource Include="War3a\5.JPG" />
+    <EmbeddedResource Include="War3a\6.JPG" />
+    <EmbeddedResource Include="War3a\7.JPG" />
+    <EmbeddedResource Include="War3a\8.JPG" />
+    <EmbeddedResource Include="War3a\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="War3a\13.JPG" />
+    <EmbeddedResource Include="War3a\14.JPG" />
+    <EmbeddedResource Include="War3a\15.JPG" />
+    <EmbeddedResource Include="War3a\16.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Roarea\1.JPG" />
+    <EmbeddedResource Include="Roarea\10.JPG" />
+    <EmbeddedResource Include="Roarea\11.JPG" />
+    <EmbeddedResource Include="Roarea\12.JPG" />
+    <EmbeddedResource Include="Roarea\13.JPG" />
+    <EmbeddedResource Include="Roarea\14.JPG" />
+    <EmbeddedResource Include="Roarea\15.JPG" />
+    <EmbeddedResource Include="Roarea\16.JPG" />
+    <EmbeddedResource Include="Roarea\2.JPG" />
+    <EmbeddedResource Include="Roarea\3.JPG" />
+    <EmbeddedResource Include="Roarea\4.JPG" />
+    <EmbeddedResource Include="Roarea\5.JPG" />
+    <EmbeddedResource Include="Roarea\6.JPG" />
+    <EmbeddedResource Include="Roarea\7.JPG" />
+    <EmbeddedResource Include="Roarea\8.JPG" />
+    <EmbeddedResource Include="Roarea\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="TearRing\1.JPG" />
+    <EmbeddedResource Include="TearRing\10.JPG" />
+    <EmbeddedResource Include="TearRing\11.JPG" />
+    <EmbeddedResource Include="TearRing\12.JPG" />
+    <EmbeddedResource Include="TearRing\13.JPG" />
+    <EmbeddedResource Include="TearRing\14.JPG" />
+    <EmbeddedResource Include="TearRing\15.JPG" />
+    <EmbeddedResource Include="TearRing\16.JPG" />
+    <EmbeddedResource Include="TearRing\2.JPG" />
+    <EmbeddedResource Include="TearRing\3.JPG" />
+    <EmbeddedResource Include="TearRing\4.JPG" />
+    <EmbeddedResource Include="TearRing\5.JPG" />
+    <EmbeddedResource Include="TearRing\6.JPG" />
+    <EmbeddedResource Include="TearRing\7.JPG" />
+    <EmbeddedResource Include="TearRing\8.JPG" />
+    <EmbeddedResource Include="TearRing\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Youxi\1.JPG" />
+    <EmbeddedResource Include="Youxi\10.JPG" />
+    <EmbeddedResource Include="Youxi\11.JPG" />
+    <EmbeddedResource Include="Youxi\12.JPG" />
+    <EmbeddedResource Include="Youxi\13.JPG" />
+    <EmbeddedResource Include="Youxi\14.JPG" />
+    <EmbeddedResource Include="Youxi\15.JPG" />
+    <EmbeddedResource Include="Youxi\16.JPG" />
+    <EmbeddedResource Include="Youxi\2.JPG" />
+    <EmbeddedResource Include="Youxi\3.JPG" />
+    <EmbeddedResource Include="Youxi\4.JPG" />
+    <EmbeddedResource Include="Youxi\5.JPG" />
+    <EmbeddedResource Include="Youxi\6.JPG" />
+    <EmbeddedResource Include="Youxi\7.JPG" />
+    <EmbeddedResource Include="Youxi\8.JPG" />
+    <EmbeddedResource Include="Youxi\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="System\Bline.JPG" />
+    <EmbeddedResource Include="System\Rline.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Symbol\1.JPG" />
+    <EmbeddedResource Include="Symbol\2.JPG" />
+    <EmbeddedResource Include="Symbol\3.JPG" />
+    <EmbeddedResource Include="Symbol\4.JPG" />
+    <EmbeddedResource Include="Symbol\5.JPG" />
+    <EmbeddedResource Include="Symbol\6.JPG" />
+    <EmbeddedResource Include="Symbol\7.JPG" />
+    <EmbeddedResource Include="Symbol\8.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AshdGame\1.JPG" />
+    <EmbeddedResource Include="AshdGame\10.JPG" />
+    <EmbeddedResource Include="AshdGame\11.JPG" />
+    <EmbeddedResource Include="AshdGame\12.JPG" />
+    <EmbeddedResource Include="AshdGame\13.JPG" />
+    <EmbeddedResource Include="AshdGame\14.JPG" />
+    <EmbeddedResource Include="AshdGame\15.JPG" />
+    <EmbeddedResource Include="AshdGame\16.JPG" />
+    <EmbeddedResource Include="AshdGame\2.JPG" />
+    <EmbeddedResource Include="AshdGame\3.JPG" />
+    <EmbeddedResource Include="AshdGame\4.JPG" />
+    <EmbeddedResource Include="AshdGame\5.JPG" />
+    <EmbeddedResource Include="AshdGame\6.JPG" />
+    <EmbeddedResource Include="AshdGame\7.JPG" />
+    <EmbeddedResource Include="AshdGame\8.JPG" />
+    <EmbeddedResource Include="AshdGame\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CSlogo\1.JPG" />
+    <EmbeddedResource Include="CSlogo\10.JPG" />
+    <EmbeddedResource Include="CSlogo\11.JPG" />
+    <EmbeddedResource Include="CSlogo\12.JPG" />
+    <EmbeddedResource Include="CSlogo\13.JPG" />
+    <EmbeddedResource Include="CSlogo\14.JPG" />
+    <EmbeddedResource Include="CSlogo\15.JPG" />
+    <EmbeddedResource Include="CSlogo\16.JPG" />
+    <EmbeddedResource Include="CSlogo\2.JPG" />
+    <EmbeddedResource Include="CSlogo\3.JPG" />
+    <EmbeddedResource Include="CSlogo\4.JPG" />
+    <EmbeddedResource Include="CSlogo\5.JPG" />
+    <EmbeddedResource Include="CSlogo\6.JPG" />
+    <EmbeddedResource Include="CSlogo\7.JPG" />
+    <EmbeddedResource Include="CSlogo\8.JPG" />
+    <EmbeddedResource Include="CSlogo\9.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SpaceRanger\1.JPG" />
+    <EmbeddedResource Include="SpaceRanger\10.JPG" />
+    <EmbeddedResource Include="SpaceRanger\11.JPG" />
+    <EmbeddedResource Include="SpaceRanger\12.JPG" />
+    <EmbeddedResource Include="SpaceRanger\13.JPG" />
+    <EmbeddedResource Include="SpaceRanger\14.JPG" />
+    <EmbeddedResource Include="SpaceRanger\15.JPG" />
+    <EmbeddedResource Include="SpaceRanger\16.JPG" />
+    <EmbeddedResource Include="SpaceRanger\2.JPG" />
+    <EmbeddedResource Include="SpaceRanger\3.JPG" />
+    <EmbeddedResource Include="SpaceRanger\4.JPG" />
+    <EmbeddedResource Include="SpaceRanger\5.JPG" />
+    <EmbeddedResource Include="SpaceRanger\6.JPG" />
+    <EmbeddedResource Include="SpaceRanger\7.JPG" />
+    <EmbeddedResource Include="SpaceRanger\8.JPG" />
+    <EmbeddedResource Include="SpaceRanger\9.JPG" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
